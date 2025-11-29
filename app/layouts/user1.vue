@@ -4,7 +4,6 @@
       <ul class="flex space-x-4 ">
          <h1><nuxt-link to="/" class="text-white ">user1     | </nuxt-link></h1>   
         <li><nuxt-link to="/room" class="text-white ">room</nuxt-link></li>
-        <li><nuxt-link to="/booking" class="text-white">booking</nuxt-link></li>
       </ul>
       <button @click="onLogout()" class="bg-white">Logout</button>
     </nav>

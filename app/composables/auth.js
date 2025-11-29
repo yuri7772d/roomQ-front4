@@ -13,6 +13,7 @@ export function useAuth() {
       const res = await fetch(`${config.public.api}/auth/me`, {
         credentials: "include",
       });
+     // console.log(res)
       if (res && res.id) {
         setUser(res.id, res.username, res.role);
         router.push("/"); // redirect หลัง login
